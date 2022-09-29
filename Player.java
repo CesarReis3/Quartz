@@ -20,7 +20,6 @@ public class Player {
         System.out.println(" ________________");
         for(String crystals:coletedCrystals){
             System.out.println("|  "+ crystals + "  |");
-
         }
         System.out.println(" ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾ ");
     }
@@ -28,5 +27,8 @@ public class Player {
     public void mine(BlackBag saco){
         coletedCrystals.add(0, saco.mine());
     }
+
+
+    public void useCard(){};
 
 }

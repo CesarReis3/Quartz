@@ -5,15 +5,7 @@ public class Quartz {
 
 
 
-
-
-        //saco.showCrystals();
-        //saco.mine();
-        //System.out.println("/////////////////////////////////////////////////////////");
-        //saco .showCrystals();
-
         cesar.mine(saco);
-        cesar.showMyCrystals();
         cesar.mine(saco);
         cesar.mine(saco);
         cesar.mine(saco);
