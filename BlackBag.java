@@ -3,10 +3,12 @@ import java.util.Collections;
 
 public class BlackBag {
     //private String[] crystals = new String[68];
+    private String name;
     private ArrayList<String> crystals = new ArrayList<String>(68);
 
 
     public BlackBag(){
+        setName("saco");
         int indice = 0;
         for(int i = 0;i<15;i++){
             crystals.add(i,"Quartzo     ");
@@ -70,6 +72,14 @@ public class BlackBag {
         crystals.remove(0);
         shuffleCrystals();
         return minedCrystal;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }
 

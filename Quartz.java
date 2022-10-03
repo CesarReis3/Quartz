@@ -2,6 +2,7 @@ public class Quartz {
     public static void main(String[] args) {
         BlackBag saco = new BlackBag();
         Player cesar = new Player();
+        CardAgoraVai agoraVai = new CardAgoraVai();
 
 
 
@@ -10,6 +11,8 @@ public class Quartz {
         cesar.mine(saco);
         cesar.mine(saco);
         cesar.showMyCrystals();
+
+
 
 
 
